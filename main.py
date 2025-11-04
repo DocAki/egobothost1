@@ -651,5 +651,6 @@ async def viewstats(ctx, user: discord.User = None):
 
     await ctx.send(embed=embed)
 
-webserver.keepalive()
+webserver.keep_alive()
+
 bot.run(TOKEN)
